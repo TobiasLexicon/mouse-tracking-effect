@@ -1,0 +1,19 @@
+#container {
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50px);
+}
+
+body > div div {
+    background-color: brown;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.orange {
+    background-color: darkorange;
+}
+
+.yellow {
+    background-color: yellow;
+}
